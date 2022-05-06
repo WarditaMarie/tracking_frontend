@@ -1,0 +1,69 @@
+.Upload {
+    text-align: center;
+    background: #f1faee ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .Upload-logo {
+        height: 35vmin;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .Upload-label{
+        font-size: 18px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .Upload-placeholder{
+        height: 40px;
+        width: 230px;
+        margin: 20px 0px 0px 0px;
+        border-radius: 4px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: bold;
+        box-sizing: border-box;
+        border: 2px solid #1d3557;
+    }
+
+    .Upload-button {
+        width: 170px;
+        height: 40px;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color: white;
+        background-color: #e63946;
+        margin: 20px 0px 0px 20px;
+        border-radius: 10px;
+    }
+    .Upload-button:hover{
+        background-color:  #1d3557;
+        transform: translateY(-3px);
+    }
+
+    .Upload-link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .Upload-file{
+        width: 250px;
+        font-size: 14px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color: white;
+        background-color: #1d3557 ;
+        margin: 20px 0px 0px 20px;
+        border-radius: 5px;
+        padding: 8px;
+        box-sizing: border-box;
+        float:right;
+    }
+    
+
+

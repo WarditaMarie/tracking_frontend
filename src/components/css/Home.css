@@ -1,0 +1,34 @@
+.Home {
+    text-align: center;
+    background: linear-gradient(to left, #f1faee 50%, #a8dadc 50%);
+  }
+  
+  .Home-logo {
+    height: 45vmin;
+    margin: -120px 0px 0px 0px;
+  }
+  
+  .Home-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Home-getstarted {
+    width: 160px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: white;
+    background-color: #e63946;
+    margin: 150px 0px 0px 0px;
+    border-radius: 10px;
+
+  }
+  .Home-getstarted:hover{
+    background-color:  #1d3557;
+    transform: translateY(-3px);
+}

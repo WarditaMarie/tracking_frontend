@@ -1,0 +1,75 @@
+.Main {
+        text-align: center;
+        background: #f1faee ;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .Main-logo {
+        height: 35vmin;
+        margin: 0px 0px 0px 0px;
+    }
+  
+ 
+    .Main-button {
+        width: 170px;
+        height: 40px;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        color: white;
+        background-color: #e63946;
+        margin: 50px 0px 0px 0px;
+        border-radius: 10px;
+    }
+    .Main-button:hover{
+        background-color:  #1d3557;
+        transform: translateY(-3px);
+    }
+
+    .Main-helpicon {
+        width: 40px;
+        height: 40px;
+        float:right;
+        margin: 50px 20px 0px 0px;
+    }
+    .Main-helpicon:hover{
+        background-color:  #1d3557;
+        transform: translateY(-3px);
+    }
+
+    .Main-trackid{
+        width: 350px;
+        height: 30px;
+        margin: 40px auto;
+        border-radius: 4px;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px solid #1d3557;
+    }
+
+    .Main-search{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        font-family: 'Segoe UI';
+        font-weight: bold;
+        color: white;
+        background-color: #e63946;
+        border-radius: 10px; 
+        margin: 0px 0px 0px 10px;  
+    }
+    .Main-search:hover{
+        background-color:  #1d3557;
+        transform: translateY(-3px);
+    }
+
+    .Main-link{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+

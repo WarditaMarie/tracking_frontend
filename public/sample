@@ -1,0 +1,44 @@
+const [response, setResponse] = useState('');
+   const [error, setError] = useState('null');
+   const [loading,setLoading] = useState('false');
+
+
+        const config = {
+            headers: { Authorization: 'Bearer ced04700-c68c-11ec-83f0-5dc43ef2684e'}
+        }
+        const bodyParameters = {
+                "size": 500,
+                "colorDark": "rgb(5,64,128)",
+                "logo": "scan_me.png",
+                "eye_outer": "eyeOuter2",
+                "eye_inner": "eyeInner1",
+                "qrData": "pattern0",
+                "backgroundColor": "rgb(255,255,255)",
+                "transparentBkg": false,
+                "qrCategory": "url",
+                "text": "https://qrcode-tiger.com"
+              }
+            QrCode = async () => {
+                  try{
+                    setLoading(true);
+                    const res = await axios.post(
+                    'https://qrtiger.com/api/qr/static',
+                    bodyParameters,
+                    config
+                    )
+                        setResponse(res.data.url);
+                  }catch(err) {
+                        setError(err);
+                  } finally{
+                        setLoading(false);
+                  }
+                 
+              }
+
+       const value = {
+        QrCode,
+        response,
+        loading,
+        error
+    }
+    
